@@ -3,6 +3,9 @@ description: Vix 语言增强提案索引站
 lang: zh-CN
 timezone: Asia/Shanghai
 
+url: "https://vixlang.github.io"
+baseurl: "/vep"
+
 theme: minima
 
 collections:

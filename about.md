@@ -5,8 +5,6 @@ title: 关于 VEP
 
 # 关于 VEP
 
-<待编辑>
-
 VEP（Vix Enhancement Proposal）是 Vix 语言的改进提案流程，受 Python PEP 启发。
 
 ## 提案类型
