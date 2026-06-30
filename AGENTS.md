@@ -45,7 +45,7 @@ author: <作者名>      # 可选
 
 - `_config.yml` 选项按功能分组，空行分隔
 - Liquid 模板尽量简洁
-- 自定义 CSS 放在 `assets/main.scss`，通过 `@import "just-the-docs"` 覆盖
+- 自定义 CSS 放在 `_sass/custom/custom.scss`（just-the-docs 自动加载）
 
 ## Git 提交规范
 
