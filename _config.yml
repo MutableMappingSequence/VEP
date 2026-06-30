@@ -6,8 +6,10 @@ timezone: Asia/Shanghai
 url: "https://vixlang.github.io"
 baseurl: "/vep"
 
-markdown: kramdown
 theme: minima
+
+plugins:
+  - jekyll-feed
 
 collections:
   veps:
