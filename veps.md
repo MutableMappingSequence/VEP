@@ -8,8 +8,18 @@ permalink: /veps/
 
 {% assign sorted = site.veps | sort: 'vep' %}
 
-| VEP | 标题 | 状态 | 类型 |
-|-----|------|------|------|
+<table>
+  <thead>
+    <tr><th>VEP</th><th>标题</th><th>状态</th><th>类型</th></tr>
+  </thead>
+  <tbody>
 {% for vep in sorted %}
-| [VEP {{ vep.vep }}]({{ vep.url | relative_url }}) | {{ vep.title }} | {{ vep.status }} | {{ vep.type }} |
+    <tr>
+      <td><a href="{{ vep.url | relative_url }}">VEP {{ vep.vep }}</a></td>
+      <td>{{ vep.title }}</td>
+      <td>{{ vep.status }}</td>
+      <td>{{ vep.type }}</td>
+    </tr>
 {% endfor %}
+  </tbody>
+</table>
