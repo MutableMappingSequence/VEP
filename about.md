@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 关于 VEP
+permalink: /about/
 ---
 
 # 关于 VEP
