@@ -1,0 +1,26 @@
+title: VEP — Vix Enhancement Proposals
+description: Vix 语言增强提案索引站
+lang: zh-CN
+timezone: Asia/Shanghai
+
+theme: minima
+
+collections:
+  veps:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "veps"
+    values:
+      layout: "vep"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+header_pages:
+  - index.md
+  - about.md

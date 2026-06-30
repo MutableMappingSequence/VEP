@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="vep">
+  <header class="vep-header">
+    <h1>VEP {{ page.vep }}: {{ page.title }}</h1>
+    <dl class="vep-meta">
+      <dt>状态</dt><dd>{{ page.status }}</dd>
+      <dt>类型</dt><dd>{{ page.type }}</dd>
+      <dt>创建日期</dt><dd>{{ page.created }}</dd>
+      {% if page.updated %}
+      <dt>更新日期</dt><dd>{{ page.updated }}</dd>
+      {% endif %}
+      {% if page.author %}
+      <dt>作者</dt><dd>{{ page.author }}</dd>
+      {% endif %}
+    </dl>
+  </header>
+
+  <div class="vep-content">
+    {{ content }}
+  </div>
+</article>

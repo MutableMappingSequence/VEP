@@ -1,0 +1,18 @@
+---
+---
+
+@import "minima";
+
+.vep-header {
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.vep-meta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3em 1em;
+  dt { font-weight: bold; color: #555; }
+  dd { margin: 0; }
+}
